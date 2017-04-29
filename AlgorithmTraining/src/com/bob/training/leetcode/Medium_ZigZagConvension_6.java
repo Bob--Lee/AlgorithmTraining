@@ -1,7 +1,7 @@
 package com.bob.training.leetcode;
 
 public class Medium_ZigZagConvension_6 {
-    
+
     public String convert(String s, int numRows) {
         int len = s.length();
         StringBuffer sb[] = new StringBuffer[numRows];
